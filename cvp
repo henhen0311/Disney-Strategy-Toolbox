@@ -1,0 +1,5 @@
+matplotlib
+streamlit
+numpy
+git commit -m "Added requirements.txt with matplotlib"
+git push origin main
