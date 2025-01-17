@@ -1,10 +1,3 @@
-import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
-import os
-import sys
-import subprocess
-
 # Install dependencies
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
@@ -15,6 +8,14 @@ for package in required_packages:
         __import__(package)
     except ImportError:
         install(package)
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+import sys
+import subprocess
+
+
 
 
 # Title
