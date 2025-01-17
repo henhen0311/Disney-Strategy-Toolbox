@@ -1,7 +1,9 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-
+git add requirements.txt
+git commit -m "Add matplotlib to requirements"
+git push origin main
 
 
 # Title
