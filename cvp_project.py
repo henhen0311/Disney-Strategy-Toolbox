@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+pip freeze > requirements.txt
+
 
 # Title
 st.title("Disney Strategy Decision Toolbox with Fully Dynamic Growth Rates")
