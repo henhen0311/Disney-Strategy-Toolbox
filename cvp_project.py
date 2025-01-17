@@ -1,9 +1,20 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-git add requirements.txt
-git commit -m "Add matplotlib to requirements"
-git push origin main
+import os
+import sys
+import subprocess
+
+# Install dependencies
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+required_packages = ['streamlit', 'numpy', 'matplotlib']
+for package in required_packages:
+    try:
+        __import__(package)
+    except ImportError:
+        install(package)
 
 
 # Title
